@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Data and artefacts (large, not tracked)
+/data/
+/datasets/
+/checkpoints/
+/logs/
+/samples/
+/pages/
+/figures/
+/metrics/*.npz
+/metrics/*.csv
+/paperfigs/*.png
+/assets/*.jpeg
+/assets/*.png
+
+# System
+.DS_Store
+*.swp
